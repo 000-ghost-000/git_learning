@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"be8bd9749d45b398","type":"group","x":-1360,"y":-1140,"width":530,"height":479,"label":"git init"},
+		{"id":"97bea08e67ab9777","x":-935,"y":160,"width":415,"height":280,"type":"group","label":"push"},
+		{"id":"49bef6d96698f280","x":-1357,"y":-240,"width":355,"height":273,"type":"group","label":"commit"},
+		{"id":"a649e7128d584446","type":"group","x":-1180,"y":-540,"width":415,"height":201,"label":"git add ."},
+		{"id":"830d27cba116049e","type":"text","text":"directory/ repository","x":-1215,"y":-1120,"width":250,"height":60},
+		{"id":"430df984fa541f98","type":"text","text":"adding the repo with git","x":-1100,"y":-741,"width":250,"height":60},
+		{"id":"69c75f590bf6b5db","type":"text","text":"git init","x":-1340,"y":-920,"width":250,"height":60},
+		{"id":"baf172eab26c37af","type":"text","text":"git add .","x":-1035,"y":-520,"width":250,"height":60},
+		{"id":"514fab06d80f0b4a","type":"text","text":"all the files are now being tracked","x":-1160,"y":-419,"width":250,"height":60},
+		{"id":"007eee3efffaebc1","type":"text","text":"git commit","x":-1272,"y":-220,"width":250,"height":60},
+		{"id":"fb6257943fa38cbb","type":"text","text":"all the modifications are now permanent and added ","x":-1337,"y":-82,"width":250,"height":95},
+		{"id":"2eed916b7f8470dd","x":-915,"y":180,"width":250,"height":60,"type":"text","text":"git push"},
+		{"id":"69826f18c8812b1b","x":-790,"y":296,"width":250,"height":124,"type":"text","text":"push the repository to a remote server/service like github.com"}
+	],
+	"edges":[
+		{"id":"7bb3342bffdb982e","fromNode":"830d27cba116049e","fromSide":"bottom","toNode":"69c75f590bf6b5db","toSide":"top"},
+		{"id":"fcc16b11717ca2c9","fromNode":"69c75f590bf6b5db","fromSide":"bottom","toNode":"430df984fa541f98","toSide":"top"},
+		{"id":"85fcc7e409ca3965","fromNode":"be8bd9749d45b398","fromSide":"bottom","toNode":"baf172eab26c37af","toSide":"top"},
+		{"id":"432f62f3ea8901c4","fromNode":"baf172eab26c37af","fromSide":"bottom","toNode":"514fab06d80f0b4a","toSide":"top"},
+		{"id":"65d772d15e2bc023","fromNode":"007eee3efffaebc1","fromSide":"bottom","toNode":"fb6257943fa38cbb","toSide":"top"},
+		{"id":"4cbf7990207c90d4","fromNode":"514fab06d80f0b4a","fromSide":"bottom","toNode":"007eee3efffaebc1","toSide":"top"},
+		{"id":"0cc00b3f84a88c14","fromNode":"2eed916b7f8470dd","fromSide":"bottom","toNode":"69826f18c8812b1b","toSide":"top"},
+		{"id":"08a6310cc0556744","fromNode":"49bef6d96698f280","fromSide":"bottom","toNode":"2eed916b7f8470dd","toSide":"top"}
+	]
+}
